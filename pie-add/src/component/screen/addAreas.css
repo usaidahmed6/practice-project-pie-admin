@@ -1,0 +1,44 @@
+.AddAreaslable{
+    display: block;
+    margin-top: 30px;
+}
+.Area-Name{
+    display: block;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(221, 240, 240, 0.843);
+    width: 90%;
+    margin: auto;
+    margin-top: 30px ;
+    font-weight: 500;
+}
+.Area-Name:focus{
+    border: 2px solid gainsboro;
+}
+.btn-Submit-AddAreasName{
+    margin-top: 183px;
+}
+.main-div-location {
+    border: 2px solid;
+    height: 1200px;
+    padding: 10%;
+    background-color: #41b6e6;
+}
+.mainDiv-Area {
+    background-color: #41b6e6;
+    height: 100% !important;
+
+}
+.location-Div-city {
+    background: #fff;
+    width: 50%;
+    margin: auto;
+    display: block;
+    height: 360px;
+ 
+    border-radius: 10px;
+}
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}

@@ -1,0 +1,164 @@
+/* .form-addItem{
+    display: block;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(34 34 34 / 55%);
+    background: white;
+    border-color: rgb(0 0 0 / 56%);
+}
+
+.nav-main {
+    background-color: #3cafc9;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0) !important;
+}
+.link-mobile ,.menuItems{
+    color: black !important;
+    text-decoration: none !important;
+    margin: 10px 8px;
+    font-size: 17px;
+}
+.menuItems:hover{
+    background-color: white;
+    border-radius: 10px ;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.463);
+} */
+
+
+/* 
+.heading {
+    margin: 0px 20px !important;
+}
+.content{
+    margin: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+  
+
+
+    div.content {
+        margin-left: 0;
+        padding: 121px 4px;
+        height: auto;
+        margin-top: 0px;
+    }
+    .nav-main {
+        display: block !important;
+    }
+
+
+    .content {
+        margin-left: 0;
+        padding: 22px 4px !important;
+        height: auto;
+        margin-top: 0px;
+    }
+
+} */
+
+.pie-logo {
+    width: 70px !important;
+}
+
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+    width: 100px;
+}
+
+#style-2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 16px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #198754;
+}
+
+* {
+    overflow: hidden;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: hsl(210deg 11% 15%);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* .sidebar a {
+    background-color: #04AA6D !important;
+    color: white;
+} */
+
+.sidebar a:hover:not(.active) {
+    background-color: #198754;
+    color: rgb(0, 0, 0);
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 706px ;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+/* @media screen and (max-height: 650px) {
+
+
+    div.content {
+        height: 300px !important;
+
+    }
+} */
+
+
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    div.content {
+        height: 300px ;
+
+    }
+}
